@@ -1,40 +1,24 @@
-# proyecto-da-promo-d-modulo-1-team-4 
+El Team 4 esta formado por Jana Raga, Mai García, Cristina Fernández y Elena Peña.
+El juego que se nos ha asignado es el clásico "piedra, papel o tijera" y trás las puestas en comun y desarrollar nuestro particular storytelling, nuestro trabajo consiste en:
 
-# Instrucciones juego:
-
-## Pieda, papel o tijera
-Este es un juego clásico en el que dos jugadores seleccionan una de tres opciones: Piedra, Papel o Tijera. Cada opción tiene una relación de victoria diferente: la Piedra vence a la Tijera, la Tijera vence al Papel y el Papel vence a la Piedra. El objetivo del juego es elegir la opción que vencerá a la opción seleccionada por el oponente. El juego se juega en rondas y el jugador que gana más rondas es el ganador del juego.
-
-
-- Reglas del Juego "Piedra, Papel y Tijera":
-
-    - Dos jugadores eligen una de las tres opciones: "Piedra", "Papel" o "Tijera".
-
-    - Las reglas para determinar al ganador son:
-        
-        - Piedra vence a Tijera.
-
-        - Tijera vence a Papel.
-
-        - Papel vence a Piedra.
-
-        - El jugador que gana una ronda obtiene un punto.
-        
-        - El juego continúa hasta que un jugador haya acumulado 3 puntos, convirtiéndose en el ganador.
-
-
-- Pistas para las alumnas:
-
-    1. Comienza por definir el número de puntos objetivo que se deben alcanzar para ganar el juego.
-
-    2. Implementa una función que obtenga la elección del jugador y valide que sea una de las opciones válidas ("Piedra", "Papel" o "Tijera").
-
-    3. Utiliza un bucle `while` para llevar un registro de los puntos de cada jugador y continuar el juego hasta que se alcance el número de puntos objetivo.
-
-    4. Genera una elección aleatoria para el segundo jugador (la computadora) utilizando el módulo `random`.
-
-    5. Determina al ganador de cada ronda y actualiza los puntos correspondientes.
-
-    6. Verifica si algún jugador ha alcanzado el número de puntos objetivo y finalicen el juego cuando eso suceda.
-
-
+1. Objetivo: Diseñar un juego de piedra, papel o tijera, en el que cada usuario puede jugar un máximo de 3 rondas contra la maquina. Se hara un conteo de las rondas.
+2. Flujo del juego:
+   - Inicio del programa:
+       + mostrar mensaje de vienvenida y las reglas del juego.
+       + El usuario debe registrase para participa.
+    - Juego:
+        + Cada usuario juega 3 rondas contra la máquina.
+        + Cada ronda muestra el resultado (ganar, perder o empatar)
+        + se lleva un registro de las victorias, derrotas y empates de cada usuario.
+    - Finalización del juego:
+        + Mostrar el resumen de los resultados tás las 3 rondas.
+3. Lógica
+   - Reglas del juego:
+         + Piedra vence a tijera.
+         + Tijera vence a papel.
+         + Papel vence a piedra.
+     - Limitaciones del juego:
+           + Cada usuario solamente puede jugar 3 rondas.
+           + Si el usuario y la maqui eligen los mismo, es empate.
+     - Registro de rondas:
+            + Se registra el número de rondas que gana cada usuario para determinar el vencedor del juego.
